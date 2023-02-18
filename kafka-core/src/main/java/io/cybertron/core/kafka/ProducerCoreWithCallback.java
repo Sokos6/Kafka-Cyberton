@@ -46,7 +46,11 @@ public class ProducerCoreWithCallback {
                 }
             });
 
-
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+               e.printStackTrace();
+            }
         }
 
         // flush data - synchronous
