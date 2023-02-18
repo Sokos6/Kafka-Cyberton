@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd1f3f2-c35d-48d4-827b-e45c8750aa35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-core/src/main/java/io/cybertron/core/kafka/ProducerCoreKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-core/src/main/java/io/cybertron/core/kafka/ConsumerCore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/3.4.0/3cc7530a1de1b2eb9355067d3c62c3c9291c3631/kafka-clients-3.4.0-sources.jar!/org/apache/kafka/clients/CommonClientConfigs.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/3.4.0/3cc7530a1de1b2eb9355067d3c62c3c9291c3631/kafka-clients-3.4.0-sources.jar!/org/apache/kafka/clients/producer/ProducerConfig.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,28 +60,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sokos6/IdeaProjects/kafka-cybertron&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/sokos6/IdeaProjects/kafka-cybertron",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.cybertron.core.kafka" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ProducerCoreKeys">
+    <configuration name="ConsumerCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.cybertron.core.kafka.ConsumerCore" />
+      <module name="kafka-cyberton.kafka-core.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cybertron.core.kafka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.cyberton.core.kafka.ProducerCore" />
       <module name="kafka-cyberton.kafka-core.main" />
@@ -133,6 +150,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ProducerCoreKeys" />
+        <item itemvalue="Application.ConsumerCore" />
         <item itemvalue="Application.ProducerCoreWithCallback" />
         <item itemvalue="Application.io.cybertron.core.kafka.ProducerCore" />
         <item itemvalue="Application.ProducerCore" />
@@ -151,7 +169,7 @@
       <workItem from="1676595984365" duration="1085000" />
       <workItem from="1676669974881" duration="2450000" />
       <workItem from="1676746748167" duration="70000" />
-      <workItem from="1676747854123" duration="2709000" />
+      <workItem from="1676747854123" duration="5204000" />
     </task>
     <servers />
   </component>
