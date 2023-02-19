@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd1f3f2-c35d-48d4-827b-e45c8750aa35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-core/src/main/java/io/cybertron/core/kafka/ConsumerCore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-core/src/main/java/io/cybertron/core/kafka/ConsumerCoreWithShutdown.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <recent name="io.cybertron.core.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerCoreKeys">
+  <component name="RunManager" selected="Application.ConsumerCoreWithShutdown">
     <configuration name="ConsumerCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.cybertron.core.kafka.ConsumerCore" />
       <module name="kafka-cyberton.kafka-core.main" />
@@ -95,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.cyberton.core.kafka.ProducerCore" />
+    <configuration name="ConsumerCoreWithShutdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.cybertron.core.kafka.ConsumerCoreWithShutdown" />
       <module name="kafka-cyberton.kafka-core.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cyberton.core.kafka.*" />
+          <option name="PATTERN" value="io.cybertron.core.kafka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConsumerCoreWithShutdown" />
         <item itemvalue="Application.ProducerCoreKeys" />
         <item itemvalue="Application.ConsumerCore" />
         <item itemvalue="Application.ProducerCoreWithCallback" />
         <item itemvalue="Application.io.cybertron.core.kafka.ProducerCore" />
-        <item itemvalue="Application.ProducerCore" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,7 @@
       <workItem from="1676595984365" duration="1085000" />
       <workItem from="1676669974881" duration="2450000" />
       <workItem from="1676746748167" duration="70000" />
-      <workItem from="1676747854123" duration="5204000" />
+      <workItem from="1676747854123" duration="7553000" />
     </task>
     <servers />
   </component>
