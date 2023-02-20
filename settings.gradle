@@ -1,3 +1,4 @@
 rootProject.name = 'kafka-cyberton'
 include 'kafka-core'
+include 'kafka-producer-wikimedia'
 

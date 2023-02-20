@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd1f3f2-c35d-48d4-827b-e45c8750aa35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-core/src/main/java/io/cybertron/core/kafka/ConsumerCoreCooperative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +85,7 @@
       <recent name="io.cybertron.core.kafka" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProducerCoreKeys">
+  <component name="RunManager" selected="Application.WikimediaChangesProducer">
     <configuration name="ConsumerCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.cybertron.core.kafka.ConsumerCore" />
       <module name="kafka-cyberton.kafka-core.main" />
@@ -134,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io.cybertron.core.kafka.ProducerCore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.cybertron.core.kafka.ProducerCore" />
-      <module name="kafka-cyberton.kafka-core.main" />
+    <configuration name="WikimediaChangesProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.cybertron.kafka.wikimedia.WikimediaChangesProducer" />
+      <module name="kafka-cyberton.kafka-producer-wikimedia.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cybertron.core.kafka.*" />
+          <option name="PATTERN" value="io.cybertron.kafka.wikimedia.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WikimediaChangesProducer" />
         <item itemvalue="Application.ProducerCoreKeys" />
         <item itemvalue="Application.ConsumerCoreWithShutdown" />
         <item itemvalue="Application.ConsumerCore" />
         <item itemvalue="Application.ProducerCoreWithCallback" />
-        <item itemvalue="Application.io.cybertron.core.kafka.ProducerCore" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +173,7 @@
       <workItem from="1676595984365" duration="1085000" />
       <workItem from="1676669974881" duration="2450000" />
       <workItem from="1676746748167" duration="70000" />
-      <workItem from="1676747854123" duration="8878000" />
+      <workItem from="1676747854123" duration="10513000" />
     </task>
     <servers />
   </component>
