@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd1f3f2-c35d-48d4-827b-e45c8750aa35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangeHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +171,7 @@
       <workItem from="1676595984365" duration="1085000" />
       <workItem from="1676669974881" duration="2450000" />
       <workItem from="1676746748167" duration="70000" />
-      <workItem from="1676747854123" duration="10513000" />
+      <workItem from="1676747854123" duration="12614000" />
     </task>
     <servers />
   </component>
