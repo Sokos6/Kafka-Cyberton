@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cd1f3f2-c35d-48d4-827b-e45c8750aa35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kafka-consumer-opensearch/src/main/java/io/cybertron/kafka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/io/cybertron/kafka/wikimedia/WikimediaChangesProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="kafka-cyberton" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="kafka-cyberton" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WikimediaChangesProducer" />
@@ -170,7 +187,8 @@
       <workItem from="1676669974881" duration="2450000" />
       <workItem from="1676746748167" duration="70000" />
       <workItem from="1676747854123" duration="14535000" />
-      <workItem from="1677002761470" duration="726000" />
+      <workItem from="1677002761470" duration="1441000" />
+      <workItem from="1677519603308" duration="1381000" />
     </task>
     <servers />
   </component>
